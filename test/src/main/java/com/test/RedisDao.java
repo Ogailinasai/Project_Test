@@ -17,6 +17,6 @@ public class RedisDao {
     public void test1(){
         stringRedisTemplate.boundValueOps("");
         stringRedisTemplate.opsForHash().put("","","");
-        System.out.println("aaa");
+//        System.out.println("aaa");
     }
 }
